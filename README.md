@@ -27,7 +27,7 @@ https://github.com/vis-nlp/UniChart
 
 端到端融合。
 
-考虑到以后要用数据集做微调，运行了一个[demo](https://github.com/liangdove/CQA-survey/tree/main/src)。采用的是<|image|> token预留策略。
+考虑到以后要用数据集做微调，事先运行了一个[demo](https://github.com/liangdove/CQA-survey/tree/main/src)。采用的是<|image|> token预留策略。
 
 ## 数据集：
 ![](https://cdn.jsdelivr.net/gh/liangdove/PicGo/imgs/202507242230426.png)
