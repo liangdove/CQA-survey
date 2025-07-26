@@ -1,0 +1,503 @@
+2025-07-26 14:30:35,993 - lmdeploy - INFO - builder.py:65 - matching vision model: InternVLVisionModel
+2025-07-26 14:30:36,509 - lmdeploy - INFO - internvl.py:90 - using InternVL-Chat-V1-5 vision preprocess
+FlashAttention2 is not installed.
+Warning: we cast model to float16 to prevent OOM. You may enforce it bfloat16 by `--dtype bfloat16`
+Move model.embed_tokens to GPU.
+Move model.layers.0 to CPU.
+Move model.layers.1 to CPU.
+Move model.layers.2 to CPU.
+Move model.layers.3 to CPU.
+Move model.layers.4 to CPU.
+Move model.layers.5 to CPU.
+Move model.layers.6 to CPU.
+Move model.layers.7 to CPU.
+Move model.layers.8 to CPU.
+Move model.layers.9 to CPU.
+Move model.layers.10 to CPU.
+Move model.layers.11 to CPU.
+Move model.layers.12 to CPU.
+Move model.layers.13 to CPU.
+Move model.layers.14 to CPU.
+Move model.layers.15 to CPU.
+Move model.layers.16 to CPU.
+Move model.layers.17 to CPU.
+Move model.layers.18 to CPU.
+Move model.layers.19 to CPU.
+Move model.layers.20 to CPU.
+Move model.layers.21 to CPU.
+Move model.layers.22 to CPU.
+Move model.layers.23 to CPU.
+Move model.layers.24 to CPU.
+Move model.layers.25 to CPU.
+Move model.layers.26 to CPU.
+Move model.layers.27 to CPU.
+Move model.layers.28 to CPU.
+Move model.layers.29 to CPU.
+Move model.layers.30 to CPU.
+Move model.layers.31 to CPU.
+Move model.layers.32 to CPU.
+Move model.layers.33 to CPU.
+Move model.layers.34 to CPU.
+Move model.layers.35 to CPU.
+Move model.layers.36 to CPU.
+Move model.layers.37 to CPU.
+Move model.layers.38 to CPU.
+Move model.layers.39 to CPU.
+Move model.layers.40 to CPU.
+Move model.layers.41 to CPU.
+Move model.layers.42 to CPU.
+Move model.layers.43 to CPU.
+Move model.layers.44 to CPU.
+Move model.layers.45 to CPU.
+Move model.layers.46 to CPU.
+Move model.layers.47 to CPU.
+Move model.norm to GPU.
+Move model.rotary_emb to GPU.
+Move lm_head to CPU.
+Loading calibrate dataset ...
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'wikitext' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+README.md: 10.5kB [00:00, 21.9MB/s]
+test-00000-of-00001.parquet: 100%|███████████████████████████████████████████| 733k/733k [00:03<00:00, 209kB/s]
+train-00000-of-00001.parquet: 100%|████████████████████████████████████████| 6.36M/6.36M [00:17<00:00, 372kB/s]
+validation-00000-of-00001.parquet: 100%|█████████████████████████████████████| 657k/657k [00:00<00:00, 692kB/s]
+Generating test split: 100%|█████████████████████████████████████| 4358/4358 [00:00<00:00, 91996.00 examples/s]
+Generating train split: 100%|█████████████████████████████████| 36718/36718 [00:00<00:00, 291268.47 examples/s]
+Generating validation split: 100%|██████████████████████████████| 3760/3760 [00:00<00:00, 263198.37 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'wikitext' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Token indices sequence length is longer than the specified maximum sequence length for this model (2518423 > 12288). Running this sequence through the model will result in indexing errors
+model.layers.0, samples: 128, max gpu memory: 10.47 GB
+model.layers.1, samples: 128, max gpu memory: 12.97 GB
+model.layers.2, samples: 128, max gpu memory: 12.97 GB
+model.layers.3, samples: 128, max gpu memory: 12.97 GB
+model.layers.4, samples: 128, max gpu memory: 12.97 GB
+model.layers.5, samples: 128, max gpu memory: 12.97 GB
+model.layers.6, samples: 128, max gpu memory: 12.97 GB
+model.layers.7, samples: 128, max gpu memory: 12.97 GB
+model.layers.8, samples: 128, max gpu memory: 12.97 GB
+model.layers.9, samples: 128, max gpu memory: 12.97 GB
+model.layers.10, samples: 128, max gpu memory: 12.97 GB
+model.layers.11, samples: 128, max gpu memory: 12.97 GB
+model.layers.12, samples: 128, max gpu memory: 12.97 GB
+model.layers.13, samples: 128, max gpu memory: 12.97 GB
+model.layers.14, samples: 128, max gpu memory: 12.97 GB
+model.layers.15, samples: 128, max gpu memory: 12.97 GB
+model.layers.16, samples: 128, max gpu memory: 12.97 GB
+model.layers.17, samples: 128, max gpu memory: 12.97 GB
+model.layers.18, samples: 128, max gpu memory: 12.97 GB
+model.layers.19, samples: 128, max gpu memory: 12.97 GB
+model.layers.20, samples: 128, max gpu memory: 12.97 GB
+model.layers.21, samples: 128, max gpu memory: 12.97 GB
+model.layers.22, samples: 128, max gpu memory: 12.97 GB
+model.layers.23, samples: 128, max gpu memory: 12.97 GB
+model.layers.24, samples: 128, max gpu memory: 12.97 GB
+model.layers.25, samples: 128, max gpu memory: 12.97 GB
+model.layers.26, samples: 128, max gpu memory: 12.97 GB
+model.layers.27, samples: 128, max gpu memory: 12.97 GB
+model.layers.28, samples: 128, max gpu memory: 12.97 GB
+model.layers.29, samples: 128, max gpu memory: 12.97 GB
+model.layers.30, samples: 128, max gpu memory: 12.97 GB
+model.layers.31, samples: 128, max gpu memory: 12.97 GB
+model.layers.32, samples: 128, max gpu memory: 12.97 GB
+model.layers.33, samples: 128, max gpu memory: 12.97 GB
+model.layers.34, samples: 128, max gpu memory: 12.97 GB
+model.layers.35, samples: 128, max gpu memory: 12.97 GB
+model.layers.36, samples: 128, max gpu memory: 12.97 GB
+model.layers.37, samples: 128, max gpu memory: 12.97 GB
+model.layers.38, samples: 128, max gpu memory: 12.97 GB
+model.layers.39, samples: 128, max gpu memory: 12.97 GB
+model.layers.40, samples: 128, max gpu memory: 12.97 GB
+model.layers.41, samples: 128, max gpu memory: 12.97 GB
+model.layers.42, samples: 128, max gpu memory: 12.97 GB
+model.layers.43, samples: 128, max gpu memory: 12.97 GB
+model.layers.44, samples: 128, max gpu memory: 12.97 GB
+model.layers.45, samples: 128, max gpu memory: 12.97 GB
+model.layers.46, samples: 128, max gpu memory: 12.97 GB
+model.layers.47, samples: 128, max gpu memory: 12.97 GB
+model.layers.0 smooth weight done. max gpu memory: 21.21 GB
+model.layers.1 smooth weight done. max gpu memory: 21.21 GB
+model.layers.2 smooth weight done. max gpu memory: 21.21 GB
+model.layers.3 smooth weight done. max gpu memory: 21.21 GB
+model.layers.4 smooth weight done. max gpu memory: 21.21 GB
+model.layers.5 smooth weight done. max gpu memory: 21.21 GB
+model.layers.6 smooth weight done. max gpu memory: 21.21 GB
+model.layers.7 smooth weight done. max gpu memory: 21.21 GB
+model.layers.8 smooth weight done. max gpu memory: 21.21 GB
+model.layers.9 smooth weight done. max gpu memory: 21.21 GB
+model.layers.10 smooth weight done. max gpu memory: 21.21 GB
+model.layers.11 smooth weight done. max gpu memory: 21.21 GB
+model.layers.12 smooth weight done. max gpu memory: 21.21 GB
+model.layers.13 smooth weight done. max gpu memory: 21.21 GB
+model.layers.14 smooth weight done. max gpu memory: 21.21 GB
+model.layers.15 smooth weight done. max gpu memory: 21.21 GB
+model.layers.16 smooth weight done. max gpu memory: 21.21 GB
+model.layers.17 smooth weight done. max gpu memory: 21.21 GB
+model.layers.18 smooth weight done. max gpu memory: 21.21 GB
+model.layers.19 smooth weight done. max gpu memory: 21.21 GB
+model.layers.20 smooth weight done. max gpu memory: 21.21 GB
+model.layers.21 smooth weight done. max gpu memory: 21.21 GB
+model.layers.22 smooth weight done. max gpu memory: 21.21 GB
+model.layers.23 smooth weight done. max gpu memory: 21.21 GB
+model.layers.24 smooth weight done. max gpu memory: 21.21 GB
+model.layers.25 smooth weight done. max gpu memory: 21.21 GB
+model.layers.26 smooth weight done. max gpu memory: 21.21 GB
+model.layers.27 smooth weight done. max gpu memory: 21.21 GB
+model.layers.28 smooth weight done. max gpu memory: 21.21 GB
+model.layers.29 smooth weight done. max gpu memory: 21.21 GB
+model.layers.30 smooth weight done. max gpu memory: 21.21 GB
+model.layers.31 smooth weight done. max gpu memory: 21.21 GB
+model.layers.32 smooth weight done. max gpu memory: 21.21 GB
+model.layers.33 smooth weight done. max gpu memory: 21.21 GB
+model.layers.34 smooth weight done. max gpu memory: 21.21 GB
+model.layers.35 smooth weight done. max gpu memory: 21.21 GB
+model.layers.36 smooth weight done. max gpu memory: 21.21 GB
+model.layers.37 smooth weight done. max gpu memory: 21.21 GB
+model.layers.38 smooth weight done. max gpu memory: 21.21 GB
+model.layers.39 smooth weight done. max gpu memory: 21.21 GB
+model.layers.40 smooth weight done. max gpu memory: 21.21 GB
+model.layers.41 smooth weight done. max gpu memory: 21.21 GB
+model.layers.42 smooth weight done. max gpu memory: 21.21 GB
+model.layers.43 smooth weight done. max gpu memory: 21.21 GB
+model.layers.44 smooth weight done. max gpu memory: 21.21 GB
+model.layers.45 smooth weight done. max gpu memory: 21.21 GB
+model.layers.46 smooth weight done. max gpu memory: 21.21 GB
+model.layers.47 smooth weight done. max gpu memory: 21.21 GB
+model.layers.0.self_attn.q_proj weight packed.
+model.layers.0.self_attn.k_proj weight packed.
+model.layers.0.self_attn.v_proj weight packed.
+model.layers.0.self_attn.o_proj weight packed.
+model.layers.0.mlp.gate_proj weight packed.
+model.layers.0.mlp.up_proj weight packed.
+model.layers.0.mlp.down_proj weight packed.
+model.layers.1.self_attn.q_proj weight packed.
+model.layers.1.self_attn.k_proj weight packed.
+model.layers.1.self_attn.v_proj weight packed.
+model.layers.1.self_attn.o_proj weight packed.
+model.layers.1.mlp.gate_proj weight packed.
+model.layers.1.mlp.up_proj weight packed.
+model.layers.1.mlp.down_proj weight packed.
+model.layers.2.self_attn.q_proj weight packed.
+model.layers.2.self_attn.k_proj weight packed.
+model.layers.2.self_attn.v_proj weight packed.
+model.layers.2.self_attn.o_proj weight packed.
+model.layers.2.mlp.gate_proj weight packed.
+model.layers.2.mlp.up_proj weight packed.
+model.layers.2.mlp.down_proj weight packed.
+model.layers.3.self_attn.q_proj weight packed.
+model.layers.3.self_attn.k_proj weight packed.
+model.layers.3.self_attn.v_proj weight packed.
+model.layers.3.self_attn.o_proj weight packed.
+model.layers.3.mlp.gate_proj weight packed.
+model.layers.3.mlp.up_proj weight packed.
+model.layers.3.mlp.down_proj weight packed.
+model.layers.4.self_attn.q_proj weight packed.
+model.layers.4.self_attn.k_proj weight packed.
+model.layers.4.self_attn.v_proj weight packed.
+model.layers.4.self_attn.o_proj weight packed.
+model.layers.4.mlp.gate_proj weight packed.
+model.layers.4.mlp.up_proj weight packed.
+model.layers.4.mlp.down_proj weight packed.
+model.layers.5.self_attn.q_proj weight packed.
+model.layers.5.self_attn.k_proj weight packed.
+model.layers.5.self_attn.v_proj weight packed.
+model.layers.5.self_attn.o_proj weight packed.
+model.layers.5.mlp.gate_proj weight packed.
+model.layers.5.mlp.up_proj weight packed.
+model.layers.5.mlp.down_proj weight packed.
+model.layers.6.self_attn.q_proj weight packed.
+model.layers.6.self_attn.k_proj weight packed.
+model.layers.6.self_attn.v_proj weight packed.
+model.layers.6.self_attn.o_proj weight packed.
+model.layers.6.mlp.gate_proj weight packed.
+model.layers.6.mlp.up_proj weight packed.
+model.layers.6.mlp.down_proj weight packed.
+model.layers.7.self_attn.q_proj weight packed.
+model.layers.7.self_attn.k_proj weight packed.
+model.layers.7.self_attn.v_proj weight packed.
+model.layers.7.self_attn.o_proj weight packed.
+model.layers.7.mlp.gate_proj weight packed.
+model.layers.7.mlp.up_proj weight packed.
+model.layers.7.mlp.down_proj weight packed.
+model.layers.8.self_attn.q_proj weight packed.
+model.layers.8.self_attn.k_proj weight packed.
+model.layers.8.self_attn.v_proj weight packed.
+model.layers.8.self_attn.o_proj weight packed.
+model.layers.8.mlp.gate_proj weight packed.
+model.layers.8.mlp.up_proj weight packed.
+model.layers.8.mlp.down_proj weight packed.
+model.layers.9.self_attn.q_proj weight packed.
+model.layers.9.self_attn.k_proj weight packed.
+model.layers.9.self_attn.v_proj weight packed.
+model.layers.9.self_attn.o_proj weight packed.
+model.layers.9.mlp.gate_proj weight packed.
+model.layers.9.mlp.up_proj weight packed.
+model.layers.9.mlp.down_proj weight packed.
+model.layers.10.self_attn.q_proj weight packed.
+model.layers.10.self_attn.k_proj weight packed.
+model.layers.10.self_attn.v_proj weight packed.
+model.layers.10.self_attn.o_proj weight packed.
+model.layers.10.mlp.gate_proj weight packed.
+model.layers.10.mlp.up_proj weight packed.
+model.layers.10.mlp.down_proj weight packed.
+model.layers.11.self_attn.q_proj weight packed.
+model.layers.11.self_attn.k_proj weight packed.
+model.layers.11.self_attn.v_proj weight packed.
+model.layers.11.self_attn.o_proj weight packed.
+model.layers.11.mlp.gate_proj weight packed.
+model.layers.11.mlp.up_proj weight packed.
+model.layers.11.mlp.down_proj weight packed.
+model.layers.12.self_attn.q_proj weight packed.
+model.layers.12.self_attn.k_proj weight packed.
+model.layers.12.self_attn.v_proj weight packed.
+model.layers.12.self_attn.o_proj weight packed.
+model.layers.12.mlp.gate_proj weight packed.
+model.layers.12.mlp.up_proj weight packed.
+model.layers.12.mlp.down_proj weight packed.
+model.layers.13.self_attn.q_proj weight packed.
+model.layers.13.self_attn.k_proj weight packed.
+model.layers.13.self_attn.v_proj weight packed.
+model.layers.13.self_attn.o_proj weight packed.
+model.layers.13.mlp.gate_proj weight packed.
+model.layers.13.mlp.up_proj weight packed.
+model.layers.13.mlp.down_proj weight packed.
+model.layers.14.self_attn.q_proj weight packed.
+model.layers.14.self_attn.k_proj weight packed.
+model.layers.14.self_attn.v_proj weight packed.
+model.layers.14.self_attn.o_proj weight packed.
+model.layers.14.mlp.gate_proj weight packed.
+model.layers.14.mlp.up_proj weight packed.
+model.layers.14.mlp.down_proj weight packed.
+model.layers.15.self_attn.q_proj weight packed.
+model.layers.15.self_attn.k_proj weight packed.
+model.layers.15.self_attn.v_proj weight packed.
+model.layers.15.self_attn.o_proj weight packed.
+model.layers.15.mlp.gate_proj weight packed.
+model.layers.15.mlp.up_proj weight packed.
+model.layers.15.mlp.down_proj weight packed.
+model.layers.16.self_attn.q_proj weight packed.
+model.layers.16.self_attn.k_proj weight packed.
+model.layers.16.self_attn.v_proj weight packed.
+model.layers.16.self_attn.o_proj weight packed.
+model.layers.16.mlp.gate_proj weight packed.
+model.layers.16.mlp.up_proj weight packed.
+model.layers.16.mlp.down_proj weight packed.
+model.layers.17.self_attn.q_proj weight packed.
+model.layers.17.self_attn.k_proj weight packed.
+model.layers.17.self_attn.v_proj weight packed.
+model.layers.17.self_attn.o_proj weight packed.
+model.layers.17.mlp.gate_proj weight packed.
+model.layers.17.mlp.up_proj weight packed.
+model.layers.17.mlp.down_proj weight packed.
+model.layers.18.self_attn.q_proj weight packed.
+model.layers.18.self_attn.k_proj weight packed.
+model.layers.18.self_attn.v_proj weight packed.
+model.layers.18.self_attn.o_proj weight packed.
+model.layers.18.mlp.gate_proj weight packed.
+model.layers.18.mlp.up_proj weight packed.
+model.layers.18.mlp.down_proj weight packed.
+model.layers.19.self_attn.q_proj weight packed.
+model.layers.19.self_attn.k_proj weight packed.
+model.layers.19.self_attn.v_proj weight packed.
+model.layers.19.self_attn.o_proj weight packed.
+model.layers.19.mlp.gate_proj weight packed.
+model.layers.19.mlp.up_proj weight packed.
+model.layers.19.mlp.down_proj weight packed.
+model.layers.20.self_attn.q_proj weight packed.
+model.layers.20.self_attn.k_proj weight packed.
+model.layers.20.self_attn.v_proj weight packed.
+model.layers.20.self_attn.o_proj weight packed.
+model.layers.20.mlp.gate_proj weight packed.
+model.layers.20.mlp.up_proj weight packed.
+model.layers.20.mlp.down_proj weight packed.
+model.layers.21.self_attn.q_proj weight packed.
+model.layers.21.self_attn.k_proj weight packed.
+model.layers.21.self_attn.v_proj weight packed.
+model.layers.21.self_attn.o_proj weight packed.
+model.layers.21.mlp.gate_proj weight packed.
+model.layers.21.mlp.up_proj weight packed.
+model.layers.21.mlp.down_proj weight packed.
+model.layers.22.self_attn.q_proj weight packed.
+model.layers.22.self_attn.k_proj weight packed.
+model.layers.22.self_attn.v_proj weight packed.
+model.layers.22.self_attn.o_proj weight packed.
+model.layers.22.mlp.gate_proj weight packed.
+model.layers.22.mlp.up_proj weight packed.
+model.layers.22.mlp.down_proj weight packed.
+model.layers.23.self_attn.q_proj weight packed.
+model.layers.23.self_attn.k_proj weight packed.
+model.layers.23.self_attn.v_proj weight packed.
+model.layers.23.self_attn.o_proj weight packed.
+model.layers.23.mlp.gate_proj weight packed.
+model.layers.23.mlp.up_proj weight packed.
+model.layers.23.mlp.down_proj weight packed.
+model.layers.24.self_attn.q_proj weight packed.
+model.layers.24.self_attn.k_proj weight packed.
+model.layers.24.self_attn.v_proj weight packed.
+model.layers.24.self_attn.o_proj weight packed.
+model.layers.24.mlp.gate_proj weight packed.
+model.layers.24.mlp.up_proj weight packed.
+model.layers.24.mlp.down_proj weight packed.
+model.layers.25.self_attn.q_proj weight packed.
+model.layers.25.self_attn.k_proj weight packed.
+model.layers.25.self_attn.v_proj weight packed.
+model.layers.25.self_attn.o_proj weight packed.
+model.layers.25.mlp.gate_proj weight packed.
+model.layers.25.mlp.up_proj weight packed.
+model.layers.25.mlp.down_proj weight packed.
+model.layers.26.self_attn.q_proj weight packed.
+model.layers.26.self_attn.k_proj weight packed.
+model.layers.26.self_attn.v_proj weight packed.
+model.layers.26.self_attn.o_proj weight packed.
+model.layers.26.mlp.gate_proj weight packed.
+model.layers.26.mlp.up_proj weight packed.
+model.layers.26.mlp.down_proj weight packed.
+model.layers.27.self_attn.q_proj weight packed.
+model.layers.27.self_attn.k_proj weight packed.
+model.layers.27.self_attn.v_proj weight packed.
+model.layers.27.self_attn.o_proj weight packed.
+model.layers.27.mlp.gate_proj weight packed.
+model.layers.27.mlp.up_proj weight packed.
+model.layers.27.mlp.down_proj weight packed.
+model.layers.28.self_attn.q_proj weight packed.
+model.layers.28.self_attn.k_proj weight packed.
+model.layers.28.self_attn.v_proj weight packed.
+model.layers.28.self_attn.o_proj weight packed.
+model.layers.28.mlp.gate_proj weight packed.
+model.layers.28.mlp.up_proj weight packed.
+model.layers.28.mlp.down_proj weight packed.
+model.layers.29.self_attn.q_proj weight packed.
+model.layers.29.self_attn.k_proj weight packed.
+model.layers.29.self_attn.v_proj weight packed.
+model.layers.29.self_attn.o_proj weight packed.
+model.layers.29.mlp.gate_proj weight packed.
+model.layers.29.mlp.up_proj weight packed.
+model.layers.29.mlp.down_proj weight packed.
+model.layers.30.self_attn.q_proj weight packed.
+model.layers.30.self_attn.k_proj weight packed.
+model.layers.30.self_attn.v_proj weight packed.
+model.layers.30.self_attn.o_proj weight packed.
+model.layers.30.mlp.gate_proj weight packed.
+model.layers.30.mlp.up_proj weight packed.
+model.layers.30.mlp.down_proj weight packed.
+model.layers.31.self_attn.q_proj weight packed.
+model.layers.31.self_attn.k_proj weight packed.
+model.layers.31.self_attn.v_proj weight packed.
+model.layers.31.self_attn.o_proj weight packed.
+model.layers.31.mlp.gate_proj weight packed.
+model.layers.31.mlp.up_proj weight packed.
+model.layers.31.mlp.down_proj weight packed.
+model.layers.32.self_attn.q_proj weight packed.
+model.layers.32.self_attn.k_proj weight packed.
+model.layers.32.self_attn.v_proj weight packed.
+model.layers.32.self_attn.o_proj weight packed.
+model.layers.32.mlp.gate_proj weight packed.
+model.layers.32.mlp.up_proj weight packed.
+model.layers.32.mlp.down_proj weight packed.
+model.layers.33.self_attn.q_proj weight packed.
+model.layers.33.self_attn.k_proj weight packed.
+model.layers.33.self_attn.v_proj weight packed.
+model.layers.33.self_attn.o_proj weight packed.
+model.layers.33.mlp.gate_proj weight packed.
+model.layers.33.mlp.up_proj weight packed.
+model.layers.33.mlp.down_proj weight packed.
+model.layers.34.self_attn.q_proj weight packed.
+model.layers.34.self_attn.k_proj weight packed.
+model.layers.34.self_attn.v_proj weight packed.
+model.layers.34.self_attn.o_proj weight packed.
+model.layers.34.mlp.gate_proj weight packed.
+model.layers.34.mlp.up_proj weight packed.
+model.layers.34.mlp.down_proj weight packed.
+model.layers.35.self_attn.q_proj weight packed.
+model.layers.35.self_attn.k_proj weight packed.
+model.layers.35.self_attn.v_proj weight packed.
+model.layers.35.self_attn.o_proj weight packed.
+model.layers.35.mlp.gate_proj weight packed.
+model.layers.35.mlp.up_proj weight packed.
+model.layers.35.mlp.down_proj weight packed.
+model.layers.36.self_attn.q_proj weight packed.
+model.layers.36.self_attn.k_proj weight packed.
+model.layers.36.self_attn.v_proj weight packed.
+model.layers.36.self_attn.o_proj weight packed.
+model.layers.36.mlp.gate_proj weight packed.
+model.layers.36.mlp.up_proj weight packed.
+model.layers.36.mlp.down_proj weight packed.
+model.layers.37.self_attn.q_proj weight packed.
+model.layers.37.self_attn.k_proj weight packed.
+model.layers.37.self_attn.v_proj weight packed.
+model.layers.37.self_attn.o_proj weight packed.
+model.layers.37.mlp.gate_proj weight packed.
+model.layers.37.mlp.up_proj weight packed.
+model.layers.37.mlp.down_proj weight packed.
+model.layers.38.self_attn.q_proj weight packed.
+model.layers.38.self_attn.k_proj weight packed.
+model.layers.38.self_attn.v_proj weight packed.
+model.layers.38.self_attn.o_proj weight packed.
+model.layers.38.mlp.gate_proj weight packed.
+model.layers.38.mlp.up_proj weight packed.
+model.layers.38.mlp.down_proj weight packed.
+model.layers.39.self_attn.q_proj weight packed.
+model.layers.39.self_attn.k_proj weight packed.
+model.layers.39.self_attn.v_proj weight packed.
+model.layers.39.self_attn.o_proj weight packed.
+model.layers.39.mlp.gate_proj weight packed.
+model.layers.39.mlp.up_proj weight packed.
+model.layers.39.mlp.down_proj weight packed.
+model.layers.40.self_attn.q_proj weight packed.
+model.layers.40.self_attn.k_proj weight packed.
+model.layers.40.self_attn.v_proj weight packed.
+model.layers.40.self_attn.o_proj weight packed.
+model.layers.40.mlp.gate_proj weight packed.
+model.layers.40.mlp.up_proj weight packed.
+model.layers.40.mlp.down_proj weight packed.
+model.layers.41.self_attn.q_proj weight packed.
+model.layers.41.self_attn.k_proj weight packed.
+model.layers.41.self_attn.v_proj weight packed.
+model.layers.41.self_attn.o_proj weight packed.
+model.layers.41.mlp.gate_proj weight packed.
+model.layers.41.mlp.up_proj weight packed.
+model.layers.41.mlp.down_proj weight packed.
+model.layers.42.self_attn.q_proj weight packed.
+model.layers.42.self_attn.k_proj weight packed.
+model.layers.42.self_attn.v_proj weight packed.
+model.layers.42.self_attn.o_proj weight packed.
+model.layers.42.mlp.gate_proj weight packed.
+model.layers.42.mlp.up_proj weight packed.
+model.layers.42.mlp.down_proj weight packed.
+model.layers.43.self_attn.q_proj weight packed.
+model.layers.43.self_attn.k_proj weight packed.
+model.layers.43.self_attn.v_proj weight packed.
+model.layers.43.self_attn.o_proj weight packed.
+model.layers.43.mlp.gate_proj weight packed.
+model.layers.43.mlp.up_proj weight packed.
+model.layers.43.mlp.down_proj weight packed.
+model.layers.44.self_attn.q_proj weight packed.
+model.layers.44.self_attn.k_proj weight packed.
+model.layers.44.self_attn.v_proj weight packed.
+model.layers.44.self_attn.o_proj weight packed.
+model.layers.44.mlp.gate_proj weight packed.
+model.layers.44.mlp.up_proj weight packed.
+model.layers.44.mlp.down_proj weight packed.
+model.layers.45.self_attn.q_proj weight packed.
+model.layers.45.self_attn.k_proj weight packed.
+model.layers.45.self_attn.v_proj weight packed.
+model.layers.45.self_attn.o_proj weight packed.
+model.layers.45.mlp.gate_proj weight packed.
+model.layers.45.mlp.up_proj weight packed.
+model.layers.45.mlp.down_proj weight packed.
+model.layers.46.self_attn.q_proj weight packed.
+model.layers.46.self_attn.k_proj weight packed.
+model.layers.46.self_attn.v_proj weight packed.
+model.layers.46.self_attn.o_proj weight packed.
+model.layers.46.mlp.gate_proj weight packed.
+model.layers.46.mlp.up_proj weight packed.
+model.layers.46.mlp.down_proj weight packed.
+model.layers.47.self_attn.q_proj weight packed.
+model.layers.47.self_attn.k_proj weight packed.
+model.layers.47.self_attn.v_proj weight packed.
+model.layers.47.self_attn.o_proj weight packed.
+model.layers.47.mlp.gate_proj weight packed.
+model.layers.47.mlp.up_proj weight packed.
+model.layers.47.mlp.down_proj weight packed.
