@@ -224,13 +224,13 @@ InternVL3在视觉感知任务上表现更强，这得益于其优化的视觉�
 <details>
 <summary>论文合集</summary>
 
-[ChartQA](https://arxiv.org/abs/2203.10244)
-[InternVL3](https://arxiv.org/abs/2504.10479)
-[Ovis](https://arxiv.org/abs/2405.20797)
-[MLLM survey](https://arxiv.org/abs/2306.13549)
-[ChartGemma](https://arxiv.org/abs/2407.04172)
-[CogAgent](https://arxiv.org/abs/2312.08914)
-[MME survey](https://arxiv.org/abs/2411.15296)
+[ChartQA](https://arxiv.org/abs/2203.10244)  
+[InternVL3](https://arxiv.org/abs/2504.10479)  
+[Ovis](https://arxiv.org/abs/2405.20797)  
+[MLLM survey](https://arxiv.org/abs/2306.13549)  
+[ChartGemma](https://arxiv.org/abs/2407.04172)  
+[CogAgent](https://arxiv.org/abs/2312.08914)  
+[MME survey](https://arxiv.org/abs/2411.15296)  
 
 </details>
 
