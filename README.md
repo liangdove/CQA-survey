@@ -237,38 +237,38 @@ InternVL3在视觉感知任务上表现更强，这得益于其优化的视觉�
 <details>
 <summary>一些链接</summary>
 
-Benchmark:
+Benchmark:  
 https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Benchmarks
 
-Benchmark introduce: 
+Benchmark introduce:   
 https://zhuanlan.zhihu.com/p/716280117
 
 
 
-Dataset introduce:
+Dataset introduce:  
 https://zhuanlan.zhihu.com/p/701404377
 
-OpenCompass:
+OpenCompass:  
 https://github.com/open-compass/OpenCompass
 https://rank.opencompass.org.cn/leaderboard-multimodal
 https://muxue.blog.csdn.net/article/details/147155744
 https://blog.csdn.net/qq_36803941/article/details/135938692
 
-VLMEvalKit:
+VLMEvalKit:  
 https://github.com/open-compass/VLMEvalKit
 https://blog.csdn.net/qq_29788741/article/details/135708616
 https://aicarrier.feishu.cn/wiki/TljbwJgjdi7MG1k7a80cWITpnHd
 
-InternVL tutorials
+InternVL tutorials  
 https://internvl.readthedocs.io/en/latest/index.html#
 
-MMBench:
+MMBench:  
 https://github.com/open-compass/mmbench/
 
-W8A8 lite:
+W8A8 lite:  
 https://lmdeploy.readthedocs.io/zh-cn/latest/quantization/w8a8.html
 
-L2G3-LMDeploy:
+L2G3-LMDeploy:  
 https://www.cnblogs.com/zhengzirui/p/18744726?utm_source=chatgpt.com
 
 ![](https://cdn.jsdelivr.net/gh/liangdove/PicGo/imgs/202507292042565.png)
