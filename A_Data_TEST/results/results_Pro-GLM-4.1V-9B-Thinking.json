@@ -1,0 +1,2107 @@
+{
+  "accuracy": 0.6933333333333334,
+  "total_samples": 300,
+  "correct_samples": 208,
+  "results": [
+    {
+      "image": "69.jpg",
+      "question": "市场部下有几个子部门？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "353.png",
+      "question": "项目经理部下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "424.jpg",
+      "question": "成品检验组长属于哪个层级？",
+      "standard_answer": "第四层",
+      "model_answer": "4",
+      "is_correct": false
+    },
+    {
+      "image": "956.png",
+      "question": "市场总监属于哪个系统？",
+      "standard_answer": "市场系统",
+      "model_answer": "市场系统",
+      "is_correct": true
+    },
+    {
+      "image": "114.jpg",
+      "question": "行政人事部下有几个子部门？",
+      "standard_answer": "0",
+      "model_answer": "7",
+      "is_correct": false
+    },
+    {
+      "image": "332.png",
+      "question": "项目部下有几个子部门？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "771.jpg",
+      "question": "财务管理部属于哪个中心？",
+      "standard_answer": "财务管理中心",
+      "model_answer": "财务管理中心",
+      "is_correct": true
+    },
+    {
+      "image": "568.png",
+      "question": "总经理属于哪个层级？",
+      "standard_answer": "第三层",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "524.png",
+      "question": "总监理工程师的直接下属有几个？",
+      "standard_answer": "1",
+      "model_answer": "1",
+      "is_correct": true
+    },
+    {
+      "image": "828.jpeg",
+      "question": "技术中心下有几个子部门？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "51.jpg",
+      "question": "总经理管理几个部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "697.jpg",
+      "question": "美的制冷家电集团下有几个子部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "46.jpg",
+      "question": "PE工程师的上级部门是什么？",
+      "standard_answer": "品质工程部",
+      "model_answer": "品质工程部",
+      "is_correct": true
+    },
+    {
+      "image": "777.jpg",
+      "question": "营业总收入增长率有几个子项？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "754.png",
+      "question": "安质环保部属于哪个公司？",
+      "standard_answer": "苏州中车建设工程有限公司",
+      "model_answer": "苏州中车建设工程有限公司",
+      "is_correct": true
+    },
+    {
+      "image": "283.jpg",
+      "question": "董事会秘书属于哪个层级？",
+      "standard_answer": "董事会",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "159.jpg",
+      "question": "项目经理的直接下级有几个？",
+      "standard_answer": "2",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "466.png",
+      "question": "项目经理直接管理几个部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "752.png",
+      "question": "技术中心下有几个子部门？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "47.jpg",
+      "question": "工程部经理下有几个直接下属？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "646.png",
+      "question": "总经理属于哪个层级？",
+      "standard_answer": "第二层",
+      "model_answer": "第二层",
+      "is_correct": true
+    },
+    {
+      "image": "560.png",
+      "question": "董事长助理属于第几个层级？",
+      "standard_answer": "第二层",
+      "model_answer": "2",
+      "is_correct": false
+    },
+    {
+      "image": "517.png",
+      "question": "项目经理直接管理哪些职位？",
+      "standard_answer": "项目副经理, 技术负责人",
+      "model_answer": "项目副经理、技术负责人",
+      "is_correct": false
+    },
+    {
+      "image": "225.jpg",
+      "question": "董事长直接管理哪个委员会？",
+      "standard_answer": "技术发展委员会",
+      "model_answer": "技术发展委员会",
+      "is_correct": true
+    },
+    {
+      "image": "877.png",
+      "question": "工程部和法务部是否属于同一级部门？",
+      "standard_answer": "是",
+      "model_answer": "是\n（这里要确保类型对应，问题是问是否同一级，回答用“是/否”中的“是”来回答，结合图像中工程部和法务部处于同一层级，所以回答“是”）",
+      "is_correct": true
+    },
+    {
+      "image": "913.png",
+      "question": "中银消费金融有限公司的股东数量是多少？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "618.png",
+      "question": "经营管理层下有几个子部门？",
+      "standard_answer": "18",
+      "model_answer": "16",
+      "is_correct": false
+    },
+    {
+      "image": "293.jpg",
+      "question": "PE主管下有几个职位？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "588.png",
+      "question": "行政商务部经理属于哪个部门？",
+      "standard_answer": "行政商务部",
+      "model_answer": "行政商务部",
+      "is_correct": true
+    },
+    {
+      "image": "381.jpg",
+      "question": "总经办文控中心有多少人？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "410.png",
+      "question": "工程技术部下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "32.jpg",
+      "question": "财务总监直接管理几个部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "255.jpg",
+      "question": "项目经理赵兴管理多少名工长和安全员？",
+      "standard_answer": "7",
+      "model_answer": "7",
+      "is_correct": true
+    },
+    {
+      "image": "744.png",
+      "question": "选择登陆方式后进入哪个页面？",
+      "standard_answer": "进入微光首页",
+      "model_answer": "进入微光首页",
+      "is_correct": true
+    },
+    {
+      "image": "142.jpg",
+      "question": "技术部有几个子部门？",
+      "standard_answer": "2",
+      "model_answer": "<|begin_of_box|>2<|end_of_box|>",
+      "is_correct": true
+    },
+    {
+      "image": "99.jpg",
+      "question": "技术负责人属于第几层级？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "434.jpg",
+      "question": "项目经理的直接下级有几个？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "747.jpeg",
+      "question": "副总经理属于哪个层级？",
+      "standard_answer": "第三层",
+      "model_answer": "第三层",
+      "is_correct": true
+    },
+    {
+      "image": "386.png",
+      "question": "总经理下有几个直接下属部门？",
+      "standard_answer": "7",
+      "model_answer": "7",
+      "is_correct": true
+    },
+    {
+      "image": "335.jpg",
+      "question": "质量负责人属于哪个层级？",
+      "standard_answer": "总经理",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "791.jpg",
+      "question": "杭州君洁股权投资合伙企业（有限合伙）持股比例是多少？",
+      "standard_answer": "99.95%",
+      "model_answer": "0.48%",
+      "is_correct": false
+    },
+    {
+      "image": "367.jpeg",
+      "question": "行政办公室属于哪个层级？",
+      "standard_answer": "职能部门",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "275.png",
+      "question": "设施设备维护部主管下有几个直接下属？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "672.png",
+      "question": "CEO的直接上级是什么？",
+      "standard_answer": "董事会",
+      "model_answer": "董事会",
+      "is_correct": true
+    },
+    {
+      "image": "409.png",
+      "question": "现场施工经理下有几个子部门？",
+      "standard_answer": "8",
+      "model_answer": "8",
+      "is_correct": true
+    },
+    {
+      "image": "969.jpeg",
+      "question": "运维检修部下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "630.jpg",
+      "question": "监事会办公室属于哪个部门？",
+      "standard_answer": "监事会",
+      "model_answer": "监事会",
+      "is_correct": true
+    },
+    {
+      "image": "636.jpg",
+      "question": "市场部和科技部是否属于同级部门？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "54.jpg",
+      "question": "生产总工长属于哪个层级？",
+      "standard_answer": "第三层",
+      "model_answer": "第三层",
+      "is_correct": true
+    },
+    {
+      "image": "678.png",
+      "question": "客服部经理直接管理哪些职位？",
+      "standard_answer": "客服专员, 前台接待, 信件收发员",
+      "model_answer": "客服专员、前台接待、信件收发员（任选其一，此处以“客服专员”为例）（注：若需全部，可写三者，但按常见直接管理核心职位，选“客服专员”或“前台接待”均可，此处以“客服专员”说明。实际可按图中直接连线职位判断）",
+      "is_correct": false
+    },
+    {
+      "image": "423.jpg",
+      "question": "技术负责人直接管理几个部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "705.png",
+      "question": "监事长属于哪个层级？",
+      "standard_answer": "监事会",
+      "model_answer": "第三层",
+      "is_correct": false
+    },
+    {
+      "image": "558.jpg",
+      "question": "副总经理处于第几层级？",
+      "standard_answer": "2",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "932.png",
+      "question": "中台下有几个子部门？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "629.png",
+      "question": "项目部负责整体产品方案的具体实施工作吗？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "212.jpg",
+      "question": "项目经理是谁？",
+      "standard_answer": "刘耀胜",
+      "model_answer": "刘耀胜",
+      "is_correct": true
+    },
+    {
+      "image": "666.png",
+      "question": "总工室属于哪个中心？",
+      "standard_answer": "工程管理中心",
+      "model_answer": "工程管理中心",
+      "is_correct": true
+    },
+    {
+      "image": "789.jpg",
+      "question": "支付宝是否管理财富保险？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "965.png",
+      "question": "地市供电企业有多少个？",
+      "standard_answer": "17",
+      "model_answer": "17",
+      "is_correct": true
+    },
+    {
+      "image": "68.jpg",
+      "question": "设备部主管下有几个设备工程师？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "577.png",
+      "question": "龙阁集团有多少个子公司？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "262.jpg",
+      "question": "总经理助理属于哪一级别？",
+      "standard_answer": "第四层",
+      "model_answer": "第三层",
+      "is_correct": false
+    },
+    {
+      "image": "554.png",
+      "question": "工程部经理下有几个小组？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "611.png",
+      "question": "公司专家组下有几个专业组？",
+      "standard_answer": "6",
+      "model_answer": "0",
+      "is_correct": false
+    },
+    {
+      "image": "546.png",
+      "question": "总经理的直接上级是什么？",
+      "standard_answer": "董事会",
+      "model_answer": "董事会",
+      "is_correct": true
+    },
+    {
+      "image": "327.png",
+      "question": "总经理下有几个副总经理？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "139.jpg",
+      "question": "区域经理下有几个直接下属？",
+      "standard_answer": "1",
+      "model_answer": "2",
+      "is_correct": false
+    },
+    {
+      "image": "500.png",
+      "question": "财务部下有几个子部门？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "228.jpg",
+      "question": "总经理的直接上级是谁？",
+      "standard_answer": "董事长：姚维新",
+      "model_answer": "董事长",
+      "is_correct": false
+    },
+    {
+      "image": "979.jpg",
+      "question": "京东电子商务（物流）香港公司属于哪个集团？",
+      "standard_answer": "京东物流集团（开曼公司）",
+      "model_answer": "京东物流集团",
+      "is_correct": false
+    },
+    {
+      "image": "957.png",
+      "question": "财务系统下有几个子部门？",
+      "standard_answer": "2",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "597.png",
+      "question": "市场部属于综合管理部吗？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "448.jpg",
+      "question": "财务总监和哪一个部门同级？",
+      "standard_answer": "成本部",
+      "model_answer": "项目发展总监",
+      "is_correct": false
+    },
+    {
+      "image": "627.png",
+      "question": "总经理属于哪个层级？",
+      "standard_answer": "第一层",
+      "model_answer": "第一层",
+      "is_correct": true
+    },
+    {
+      "image": "502.png",
+      "question": "一工区管理的部门有几个？",
+      "standard_answer": "4",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "710.png",
+      "question": "抖音下有几个子业务？",
+      "standard_answer": "6",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "720.png",
+      "question": "小米产业投资有几个子领域？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "512.png",
+      "question": "白班品质组长管理多少个小组？",
+      "standard_answer": "8",
+      "model_answer": "7",
+      "is_correct": false
+    },
+    {
+      "image": "782.jpg",
+      "question": "SNG部门下有几个子部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "389.png",
+      "question": "工程工程司理的直接下属有几个？",
+      "standard_answer": "2",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "276.jpeg",
+      "question": "经理层下有几个子部门？",
+      "standard_answer": "19",
+      "model_answer": "18",
+      "is_correct": false
+    },
+    {
+      "image": "796.png",
+      "question": "用户中心属于哪个业务单元？",
+      "standard_answer": "业务共享单元",
+      "model_answer": "业务共享单元",
+      "is_correct": true
+    },
+    {
+      "image": "707.png",
+      "question": "恒力集团直接持股恒力石化的比例是多少？",
+      "standard_answer": "29.72%",
+      "model_answer": "29.72%",
+      "is_correct": true
+    },
+    {
+      "image": "562.png",
+      "question": "工程管理部属于哪个上级部门？",
+      "standard_answer": "总经理",
+      "model_answer": "总经理",
+      "is_correct": true
+    },
+    {
+      "image": "23.jpg",
+      "question": "项目经理直接管理多少个职位或小组？",
+      "standard_answer": "7",
+      "model_answer": "7",
+      "is_correct": true
+    },
+    {
+      "image": "556.jpg",
+      "question": "有几个地域子部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "153.jpg",
+      "question": "生产部下有几个子部门？",
+      "standard_answer": "8",
+      "model_answer": "8",
+      "is_correct": true
+    },
+    {
+      "image": "12.jpg",
+      "question": "总共有几个部门？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "205.jpg",
+      "question": "总经理的直接上级是谁？",
+      "standard_answer": "董事长",
+      "model_answer": "董事长",
+      "is_correct": true
+    },
+    {
+      "image": "87.jpg",
+      "question": "项目经理下有几个直接下属部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "875.jpg",
+      "question": "金融同业事业部属于哪个大类？",
+      "standard_answer": "资金",
+      "model_answer": "<|begin_of_box|>资金<|end_of_box|>",
+      "is_correct": true
+    },
+    {
+      "image": "849.jpeg",
+      "question": "市场部属于哪个层级？",
+      "standard_answer": "本部部门",
+      "model_answer": "第三层",
+      "is_correct": false
+    },
+    {
+      "image": "311.jpg",
+      "question": "质量管理部经理管理几个主管？",
+      "standard_answer": "7",
+      "model_answer": "6",
+      "is_correct": false
+    },
+    {
+      "image": "65.jpg",
+      "question": "人事专员下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "55.jpg",
+      "question": "副总经理直接管理几个部门？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "943.jpg",
+      "question": "董事会下有几个委员会？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "942.jpg",
+      "question": "质量安全部属于谁管理？",
+      "standard_answer": "总工程师",
+      "model_answer": "总裁委",
+      "is_correct": false
+    },
+    {
+      "image": "384.jpg",
+      "question": "副总经理（市场营销）属于第几层级？",
+      "standard_answer": "第四层级",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "712.jpg",
+      "question": "中信银行可转债的面值是多少亿元？",
+      "standard_answer": "263.88",
+      "model_answer": "263.88",
+      "is_correct": true
+    },
+    {
+      "image": "680.png",
+      "question": "市场部总监属于哪个部门？",
+      "standard_answer": "市场部",
+      "model_answer": "营销部",
+      "is_correct": false
+    },
+    {
+      "image": "60.jpg",
+      "question": "总监代表赵宏下有几个子部门？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "946.png",
+      "question": "副总经理（业务运营）下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "928.png",
+      "question": "JD.COM, Inc.（开曼群岛）下有几个直接子公司？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "336.png",
+      "question": "项目技术负责人下有几个职位？",
+      "standard_answer": "9",
+      "model_answer": "9",
+      "is_correct": true
+    },
+    {
+      "image": "864.png",
+      "question": "总经理的直接下级有几个部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "76.jpg",
+      "question": "总经理下有几个直接下属？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "487.png",
+      "question": "在建工程组下有几个职位？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "198.jpg",
+      "question": "总裁的直接上级是什么？",
+      "standard_answer": "决策委员会",
+      "model_answer": "决策委员会",
+      "is_correct": true
+    },
+    {
+      "image": "780.png",
+      "question": "腾讯学院下有几个子部门？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "437.jpeg",
+      "question": "质量管理部经理（连同副经理）的直接下级有几个？",
+      "standard_answer": "7",
+      "model_answer": "5",
+      "is_correct": false
+    },
+    {
+      "image": "305.png",
+      "question": "第二经营单元下有几个事业部？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "735.jpg",
+      "question": "中国中信股份有限公司是中信集团有限公司的子公司吗？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "494.png",
+      "question": "财务部和成本部是否属于同一级部门？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "163.jpg",
+      "question": "总经理下有几个副总监级职位？",
+      "standard_answer": "4",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "268.png",
+      "question": "职能部门下有几个子部门？",
+      "standard_answer": "7",
+      "model_answer": "7",
+      "is_correct": true
+    },
+    {
+      "image": "451.png",
+      "question": "总经理直接下属有几个部门？",
+      "standard_answer": "9",
+      "model_answer": "10",
+      "is_correct": false
+    },
+    {
+      "image": "350.png",
+      "question": "生产部经理下有几个下属？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "107.jpg",
+      "question": "行政主管下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "0",
+      "is_correct": false
+    },
+    {
+      "image": "106.jpg",
+      "question": "项目经理刘进良直接管理几个职位？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "733.jpeg",
+      "question": "董事长的直接下级是谁？",
+      "standard_answer": "总经理",
+      "model_answer": "总经理",
+      "is_correct": true
+    },
+    {
+      "image": "417.png",
+      "question": "工程部经理下有几个直接下属部门？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "506.png",
+      "question": "工艺工程部下有几个子部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "876.jpg",
+      "question": "总经理室下有几个子部门？",
+      "standard_answer": "10",
+      "model_answer": "10",
+      "is_correct": true
+    },
+    {
+      "image": "468.png",
+      "question": "开发部副总管理哪些部门？",
+      "standard_answer": "3",
+      "model_answer": "市场部（或销售部、开发部等任选其一，符合图示关系的部门名称）",
+      "is_correct": false
+    },
+    {
+      "image": "667.png",
+      "question": "市场总监属于哪个部门？",
+      "standard_answer": "市场商务部",
+      "model_answer": "市场商务部",
+      "is_correct": true
+    },
+    {
+      "image": "93.jpg",
+      "question": "项目技术负责人直接管理的部门数量是多少？",
+      "standard_answer": "8",
+      "model_answer": "8",
+      "is_correct": true
+    },
+    {
+      "image": "690.jpg",
+      "question": "董事长办公室下有几个董事分区？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "619.png",
+      "question": "党委下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "74.jpg",
+      "question": "副总经理属于哪个层级名称是什么？",
+      "standard_answer": "AA1",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "663.jpg",
+      "question": "营销部属于哪个职位直接管辖？",
+      "standard_answer": "副总经理",
+      "model_answer": "副总经理",
+      "is_correct": true
+    },
+    {
+      "image": "238.png",
+      "question": "总经理属于哪个层级？",
+      "standard_answer": "第二层",
+      "model_answer": "第二层",
+      "is_correct": true
+    },
+    {
+      "image": "250.png",
+      "question": "财务部经理直接管理几个处？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "898.jpg",
+      "question": "总经理、党委书记处于第几层级？",
+      "standard_answer": "第一层",
+      "model_answer": "1",
+      "is_correct": false
+    },
+    {
+      "image": "348.png",
+      "question": "总经理助理属于哪个层级？",
+      "standard_answer": "第三级",
+      "model_answer": "第三层",
+      "is_correct": false
+    },
+    {
+      "image": "538.png",
+      "question": "总经理下有几个中心？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "578.png",
+      "question": "总经理的直接上级是什么？",
+      "standard_answer": "董事会",
+      "model_answer": "董事会",
+      "is_correct": true
+    },
+    {
+      "image": "10.png",
+      "question": "总监理工程师代表下有几个直接下属部门？",
+      "standard_answer": "7",
+      "model_answer": "7",
+      "is_correct": true
+    },
+    {
+      "image": "685.jpg",
+      "question": "小米香港是否100%控股小米有品科技？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "183.jpg",
+      "question": "制造一部有多少个子部门？",
+      "standard_answer": "5",
+      "model_answer": "6",
+      "is_correct": false
+    },
+    {
+      "image": "989.png",
+      "question": "赵承担任什么职务？",
+      "standard_answer": "法定代表人,执行董事",
+      "model_answer": "经理",
+      "is_correct": false
+    },
+    {
+      "image": "369.jpeg",
+      "question": "总经理和党群机构是同级部门吗？",
+      "standard_answer": "否",
+      "model_answer": "是",
+      "is_correct": false
+    },
+    {
+      "image": "900.jpeg",
+      "question": "甲烷属于哪个原料？",
+      "standard_answer": "天然气",
+      "model_answer": "化工原料",
+      "is_correct": false
+    },
+    {
+      "image": "964.jpg",
+      "question": "架构图中是否存在党委办公室？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "872.png",
+      "question": "生产副总直接管理哪些部门主管？",
+      "standard_answer": "工程部主管, 机械部主管, 技术部主管，财管员",
+      "model_answer": "技术部主管",
+      "is_correct": false
+    },
+    {
+      "image": "742.jpg",
+      "question": "党委干部部属于哪个上级机构？",
+      "standard_answer": "党委会",
+      "model_answer": "党委",
+      "is_correct": false
+    },
+    {
+      "image": "120.jpg",
+      "question": "办公室属于哪两个部门管理？",
+      "standard_answer": "总工，项目副经理",
+      "model_answer": "总工、项目副经理",
+      "is_correct": false
+    },
+    {
+      "image": "179.jpg",
+      "question": "项目经理直接管理哪些部门？",
+      "standard_answer": "项目副经理, 项目工程师",
+      "model_answer": "工程部",
+      "is_correct": false
+    },
+    {
+      "image": "608.png",
+      "question": "重庆公司下有几个职能部门？",
+      "standard_answer": "9",
+      "model_answer": "9",
+      "is_correct": true
+    },
+    {
+      "image": "270.jpeg",
+      "question": "全资子公司有几个？",
+      "standard_answer": "11",
+      "model_answer": "12",
+      "is_correct": false
+    },
+    {
+      "image": "776.png",
+      "question": "腾讯集团有几个事业群？",
+      "standard_answer": "7",
+      "model_answer": "6",
+      "is_correct": false
+    },
+    {
+      "image": "612.png",
+      "question": "总经理有几个直接下属部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "439.png",
+      "question": "财务部有几个子部门？",
+      "standard_answer": "2",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "84.jpg",
+      "question": "生产副经理下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "263.jpg",
+      "question": "总经理下有几个部门？",
+      "standard_answer": "11",
+      "model_answer": "11",
+      "is_correct": true
+    },
+    {
+      "image": "798.jpeg",
+      "question": "总经理下有几个部门？",
+      "standard_answer": "7",
+      "model_answer": "7",
+      "is_correct": true
+    },
+    {
+      "image": "878.png",
+      "question": "项目部1下有几个职位？",
+      "standard_answer": "7",
+      "model_answer": "5",
+      "is_correct": false
+    },
+    {
+      "image": "725.jpg",
+      "question": "监事会管理哪些部门？",
+      "standard_answer": "董事会，经理层",
+      "model_answer": "经理层",
+      "is_correct": false
+    },
+    {
+      "image": "693.png",
+      "question": "主工程下有多少个业务aar？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "892.jpg",
+      "question": "总部下有几个职能部门？",
+      "standard_answer": "23",
+      "model_answer": "24",
+      "is_correct": false
+    },
+    {
+      "image": "530.jpeg",
+      "question": "中铁文化旅游投资集团有限公司有几个分公司？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "740.jpg",
+      "question": "董事长常振明的直接下属有几个？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "138.jpg",
+      "question": "总经理管理几个部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "467.png",
+      "question": "质量管理部经理下有几个主管？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "681.png",
+      "question": "董事会的直接上级是什么？",
+      "standard_answer": "股东会",
+      "model_answer": "股东会",
+      "is_correct": true
+    },
+    {
+      "image": "126.jpg",
+      "question": "行政主管属于哪个部门？",
+      "standard_answer": "行政部",
+      "model_answer": "行政部",
+      "is_correct": true
+    },
+    {
+      "image": "785.png",
+      "question": "B线业务系统下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "580.png",
+      "question": "董事长的直接下级有几个？",
+      "standard_answer": "1",
+      "model_answer": "1",
+      "is_correct": true
+    },
+    {
+      "image": "475.png",
+      "question": "经理室下有几个子部门？",
+      "standard_answer": "9",
+      "model_answer": "9",
+      "is_correct": true
+    },
+    {
+      "image": "586.png",
+      "question": "中铁一局集团有限公司有多少个控股子公司？",
+      "standard_answer": "31",
+      "model_answer": "14",
+      "is_correct": false
+    },
+    {
+      "image": "133.jpg",
+      "question": "营销策划部副经理管理几个部门？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "758.png",
+      "question": "董事长的直接下级是谁？",
+      "standard_answer": "总经理",
+      "model_answer": "总经理",
+      "is_correct": true
+    },
+    {
+      "image": "677.png",
+      "question": "CEO的直接下属部门有几个？",
+      "standard_answer": "7",
+      "model_answer": "7",
+      "is_correct": true
+    },
+    {
+      "image": "980.jpeg",
+      "question": "纪检监察组对多少部门负责？",
+      "standard_answer": "16",
+      "model_answer": "16",
+      "is_correct": true
+    },
+    {
+      "image": "945.jpg",
+      "question": "董事会下有几个委员会？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "28.jpg",
+      "question": "项目经理下有几个直接负责人？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "948.png",
+      "question": "可信理论、技术与工程实验室下有几个子部门？",
+      "standard_answer": "9",
+      "model_answer": "9",
+      "is_correct": true
+    },
+    {
+      "image": "1010.jpg",
+      "question": "投资决策委员会的上级是什么？",
+      "standard_answer": "董事会",
+      "model_answer": "董事会",
+      "is_correct": true
+    },
+    {
+      "image": "1014.jpg",
+      "question": "综合管理部门中有几个子部门？",
+      "standard_answer": "6",
+      "model_answer": "10",
+      "is_correct": false
+    },
+    {
+      "image": "352.png",
+      "question": "养护经理属于哪个层级？",
+      "standard_answer": "第二层",
+      "model_answer": "第二层",
+      "is_correct": true
+    },
+    {
+      "image": "615.png",
+      "question": "董事会下有几个委员会？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "852.png",
+      "question": "对公业务下有几个子部门？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "321.jpg",
+      "question": "财务部有多少人？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "982.jpg",
+      "question": "刘强东管理哪个部门？",
+      "standard_answer": "京东商城",
+      "model_answer": "京东商城",
+      "is_correct": true
+    },
+    {
+      "image": "741.png",
+      "question": "董事长的直接下属有哪些？",
+      "standard_answer": "理事、顾问、副总经理",
+      "model_answer": "理事（或顾问、副总经理等任选其一）",
+      "is_correct": false
+    },
+    {
+      "image": "665.jpg",
+      "question": "秘书长下有几个子部门？",
+      "standard_answer": "8",
+      "model_answer": "8",
+      "is_correct": true
+    },
+    {
+      "image": "532.png",
+      "question": "酒店总经理的直接上级是什么？",
+      "standard_answer": "集团董事会",
+      "model_answer": "集团董事会",
+      "is_correct": true
+    },
+    {
+      "image": "540.png",
+      "question": "生技处处长的直接下级有几个？",
+      "standard_answer": "9",
+      "model_answer": "1",
+      "is_correct": false
+    },
+    {
+      "image": "552.png",
+      "question": "项目经理的直接下级是什么？",
+      "standard_answer": "技术负责人",
+      "model_answer": "技术负责人",
+      "is_correct": true
+    },
+    {
+      "image": "748.jpg",
+      "question": "生产副总经理管理几个部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "244.png",
+      "question": "项目监理部有几个？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "9.png",
+      "question": "工程部经理/副经理/经理助理的直接下级是什么职位？",
+      "standard_answer": "主管",
+      "model_answer": "主管",
+      "is_correct": true
+    },
+    {
+      "image": "232.jpg",
+      "question": "项目经理部下有几个项目副经理？",
+      "standard_answer": "4",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "35.jpg",
+      "question": "项目经理直接管理几个小组？",
+      "standard_answer": "0",
+      "model_answer": "8",
+      "is_correct": false
+    },
+    {
+      "image": "330.png",
+      "question": "董事会秘书属于哪个层级？",
+      "standard_answer": "董事会",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "80.jpg",
+      "question": "总经理下有几个直属部门？",
+      "standard_answer": "3",
+      "model_answer": "4",
+      "is_correct": false
+    },
+    {
+      "image": "951.png",
+      "question": "董事会的直接上级是什么？",
+      "standard_answer": "股东会",
+      "model_answer": "股东会",
+      "is_correct": true
+    },
+    {
+      "image": "462.png",
+      "question": "决策、协调委员会属于哪个层级？",
+      "standard_answer": "总裁层级",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "266.png",
+      "question": "生产运营体系下有几个子部门？",
+      "standard_answer": "8",
+      "model_answer": "14",
+      "is_correct": false
+    },
+    {
+      "image": "574.jpeg",
+      "question": "X院有几个一级部门？",
+      "standard_answer": "11",
+      "model_answer": "11",
+      "is_correct": true
+    },
+    {
+      "image": "987.jpg",
+      "question": "大力教育下有几个子业务？",
+      "standard_answer": "8",
+      "model_answer": "8",
+      "is_correct": true
+    },
+    {
+      "image": "1016.jpg",
+      "question": "审计部和基建部是否属于同一级？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "835.jpg",
+      "question": "董事会的直接下级是什么？",
+      "standard_answer": "经理层",
+      "model_answer": "经理层",
+      "is_correct": true
+    },
+    {
+      "image": "706.jpg",
+      "question": "董事长(总经理)有多少个副总经理直接汇报？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "529.png",
+      "question": "材料员郑红卫管理几个班组？",
+      "standard_answer": "7",
+      "model_answer": "7",
+      "is_correct": true
+    },
+    {
+      "image": "265.jpg",
+      "question": "财务部下有几个子部门？",
+      "standard_answer": "2",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "873.jpg",
+      "question": "监事会办公室属于哪个部门？",
+      "standard_answer": "监事会",
+      "model_answer": "监事会",
+      "is_correct": true
+    },
+    {
+      "image": "450.png",
+      "question": "工程设计中心下有几个子部门？",
+      "standard_answer": "10",
+      "model_answer": "10",
+      "is_correct": true
+    },
+    {
+      "image": "995.jpg",
+      "question": "财务部属于哪个层级？",
+      "standard_answer": "职能部门",
+      "model_answer": "第一层",
+      "is_correct": false
+    },
+    {
+      "image": "31.jpg",
+      "question": "信息安全工程师上级是谁？",
+      "standard_answer": "信息部经理",
+      "model_answer": "信息部经理",
+      "is_correct": true
+    },
+    {
+      "image": "490.png",
+      "question": "秘书处属于哪个层级？",
+      "standard_answer": "会员大会",
+      "model_answer": "第三层",
+      "is_correct": false
+    },
+    {
+      "image": "607.png",
+      "question": "总经理助理处于第几层级？",
+      "standard_answer": "第三层",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "157.jpg",
+      "question": "工程安全部的组长是谁？",
+      "standard_answer": "马兴文",
+      "model_answer": "马兴文",
+      "is_correct": true
+    },
+    {
+      "image": "904.jpg",
+      "question": "抽余C5下有几个子类别？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "411.jpeg",
+      "question": "总经理处于第几层级？",
+      "standard_answer": "3",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "176.jpg",
+      "question": "生产业务部门下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "277.png",
+      "question": "项目经理管理几个部门？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "947.jpg",
+      "question": "中邮资本管理有限公司的持股比例是多少？",
+      "standard_answer": "100%",
+      "model_answer": "100%",
+      "is_correct": true
+    },
+    {
+      "image": "229.jpg",
+      "question": "总经理和谁平级？",
+      "standard_answer": "党委书记/董事长",
+      "model_answer": "党委第一书记/董事长",
+      "is_correct": false
+    },
+    {
+      "image": "910.jpg",
+      "question": "总经理下有几个部门？",
+      "standard_answer": "11",
+      "model_answer": "11",
+      "is_correct": true
+    },
+    {
+      "image": "171.jpg",
+      "question": "董事长助理的直接上级是谁？",
+      "standard_answer": "董事长",
+      "model_answer": "董事长",
+      "is_correct": true
+    },
+    {
+      "image": "811.png",
+      "question": "高管团队下有几个子部门？",
+      "standard_answer": "14",
+      "model_answer": "15",
+      "is_correct": false
+    },
+    {
+      "image": "620.png",
+      "question": "质量工程师和专员是否属于同一级别？",
+      "standard_answer": "否",
+      "model_answer": "否",
+      "is_correct": true
+    },
+    {
+      "image": "320.jpg",
+      "question": "董事会的直接下级是什么？",
+      "standard_answer": "总经理",
+      "model_answer": "总经理",
+      "is_correct": true
+    },
+    {
+      "image": "366.png",
+      "question": "总经理下有几个职能部门？",
+      "standard_answer": "12",
+      "model_answer": "12",
+      "is_correct": true
+    },
+    {
+      "image": "220.jpg",
+      "question": "项目经理刘立峰直接管理几个岗位？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "48.jpg",
+      "question": "项目经理直接管理谁？",
+      "standard_answer": "技术负责人",
+      "model_answer": "技术负责人",
+      "is_correct": true
+    },
+    {
+      "image": "119.jpg",
+      "question": "预算合约部经理下有几个子部门？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "867.png",
+      "question": "总经理属于第几个层级？",
+      "standard_answer": "第二层",
+      "model_answer": "第二层",
+      "is_correct": true
+    },
+    {
+      "image": "42.jpg",
+      "question": "工程部经理下有几个职位？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "719.jpg",
+      "question": "董事会下有几个委员会？",
+      "standard_answer": "5",
+      "model_answer": "6",
+      "is_correct": false
+    },
+    {
+      "image": "127.jpg",
+      "question": "生产部有几个子部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "92.jpg",
+      "question": "质检组下有几个岗位？",
+      "standard_answer": "1",
+      "model_answer": "1",
+      "is_correct": true
+    },
+    {
+      "image": "91.jpg",
+      "question": "董事会下有几个层级？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "520.jpg",
+      "question": "市场部属于哪个上级部门？",
+      "standard_answer": "营销中心",
+      "model_answer": "行政管理中心",
+      "is_correct": false
+    },
+    {
+      "image": "440.png",
+      "question": "董事长直接管理哪些部门？",
+      "standard_answer": "财务副总, 总经理助理, 工程指挥部",
+      "model_answer": "工程指挥部",
+      "is_correct": false
+    },
+    {
+      "image": "930.png",
+      "question": "京东物流和京东金融是否属于同一级部门？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "523.png",
+      "question": "工程总监管理几个子部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "967.jpg",
+      "question": "中石化冠德控股有限公司属于哪个板块？",
+      "standard_answer": "中游油气储存运输板块",
+      "model_answer": "中游油气储存运输板块",
+      "is_correct": true
+    },
+    {
+      "image": "285.jpg",
+      "question": "总经理直接管理多少个部门？",
+      "standard_answer": "12",
+      "model_answer": "14",
+      "is_correct": false
+    },
+    {
+      "image": "284.jpg",
+      "question": "总经理有几个直接下属部门或职位？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "196.jpg",
+      "question": "总经理下面有几个直接下属？",
+      "standard_answer": "6",
+      "model_answer": "6",
+      "is_correct": true
+    },
+    {
+      "image": "481.png",
+      "question": "事故现场副指挥下有几个子部门？",
+      "standard_answer": "8",
+      "model_answer": "8",
+      "is_correct": true
+    },
+    {
+      "image": "812.jpeg",
+      "question": "市场营销部属于哪个职位管辖？",
+      "standard_answer": "总经理",
+      "model_answer": "总工程师、财务总监",
+      "is_correct": false
+    },
+    {
+      "image": "657.png",
+      "question": "董事会的直接下属是什么？",
+      "standard_answer": "总经理",
+      "model_answer": "总经理",
+      "is_correct": true
+    },
+    {
+      "image": "302.png",
+      "question": "技术部下有几个子部门？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "837.jpg",
+      "question": "山西太钢不锈钢股份有限公司的直接上级是什么？",
+      "standard_answer": "太钢集团",
+      "model_answer": "太钢集团",
+      "is_correct": true
+    },
+    {
+      "image": "817.jpg",
+      "question": "人力资源部和审计部是同级部门吗？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "14.png",
+      "question": "副总经理管理几个部门？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "310.png",
+      "question": "市场总部属于哪个系统？",
+      "standard_answer": "市场系统",
+      "model_answer": "市场系统",
+      "is_correct": true
+    },
+    {
+      "image": "689.png",
+      "question": "董事长的直接下级有几个？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "847.jpg",
+      "question": "经营班子下有几个主要分支？",
+      "standard_answer": "3",
+      "model_answer": "4",
+      "is_correct": false
+    },
+    {
+      "image": "206.jpg",
+      "question": "土建总监下有几个工程师？",
+      "standard_answer": "4",
+      "model_answer": "5",
+      "is_correct": false
+    },
+    {
+      "image": "129.jpg",
+      "question": "总经理下有几个部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "889.jpg",
+      "question": "网运部属于哪个层级？",
+      "standard_answer": "管理层",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "899.jpg",
+      "question": "北方总部和华东总部是否属于同一级部门？",
+      "standard_answer": "是",
+      "model_answer": "是",
+      "is_correct": true
+    },
+    {
+      "image": "338.jpg",
+      "question": "项目技术负责人管理汽车组吗？",
+      "standard_answer": "否",
+      "model_answer": "否",
+      "is_correct": true
+    },
+    {
+      "image": "234.jpg",
+      "question": "项目经理部下有几个下属？",
+      "standard_answer": "2",
+      "model_answer": "1",
+      "is_correct": false
+    },
+    {
+      "image": "813.jpg",
+      "question": "纪检监察组对谁进行监察？",
+      "standard_answer": "公司党组，董事会",
+      "model_answer": "全体员工",
+      "is_correct": false
+    },
+    {
+      "image": "37.jpg",
+      "question": "品质控制组长直接管理哪些职位？",
+      "standard_answer": "来料检验员, 生产线品质控制员, 最终品质控制员",
+      "model_answer": "来料检验员（或生产线品质控制员、最终品质控制员等，任选其一）",
+      "is_correct": false
+    },
+    {
+      "image": "100.jpg",
+      "question": "市场总监助理下有几个职位？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "745.png",
+      "question": "总经理下有几个直接部门？",
+      "standard_answer": "7",
+      "model_answer": "7",
+      "is_correct": true
+    },
+    {
+      "image": "885.jpg",
+      "question": "综合支撑下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "983.png",
+      "question": "党群工作部属于哪个层级？",
+      "standard_answer": "经理层",
+      "model_answer": "第三层",
+      "is_correct": false
+    },
+    {
+      "image": "633.jpg",
+      "question": "职能部门下有几个子部门？",
+      "standard_answer": "13",
+      "model_answer": "13",
+      "is_correct": true
+    },
+    {
+      "image": "428.jpg",
+      "question": "项目经理直接管理哪些职位？",
+      "standard_answer": "常务副经理, 项目总工程师, 副经理",
+      "model_answer": "常务副经理（或项目总工程师、副经理等任一符合条件的职位名称）",
+      "is_correct": false
+    },
+    {
+      "image": "998.jpg",
+      "question": "综合管理部属于哪个部门？",
+      "standard_answer": "中航通用飞机有限责任公司",
+      "model_answer": "中航通用飞机有限责任公司",
+      "is_correct": true
+    },
+    {
+      "image": "241.png",
+      "question": "财务部直接隶属于哪个部门？",
+      "standard_answer": "董事会",
+      "model_answer": "董事会",
+      "is_correct": true
+    },
+    {
+      "image": "50.jpg",
+      "question": "QHSE部部长直接上级是谁？",
+      "standard_answer": "主管副总指挥",
+      "model_answer": "主管副总指挥",
+      "is_correct": true
+    },
+    {
+      "image": "717.jpg",
+      "question": "小米集团(开曼)持有Xiaomi Finance Inc.的百分比是多少？",
+      "standard_answer": "100%",
+      "model_answer": "100%",
+      "is_correct": true
+    },
+    {
+      "image": "235.jpg",
+      "question": "技术准备工作包括哪些内容？",
+      "standard_answer": "现场测量定位，现场材料库房布置, 施工图纸会审, 新工艺、新材料试验, 地方材料鉴定, 其他",
+      "model_answer": "现场测量定位",
+      "is_correct": false
+    },
+    {
+      "image": "795.jpg",
+      "question": "发电集团公司下有几个子集团？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "539.png",
+      "question": "工程部下有几个项目部？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "282.jpg",
+      "question": "技术部经理处于第几层级？",
+      "standard_answer": "第二层",
+      "model_answer": "第二层",
+      "is_correct": true
+    },
+    {
+      "image": "85.jpg",
+      "question": "区域养护主管管理多少个部门？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "135.jpg",
+      "question": "质量技术组组长是谁？",
+      "standard_answer": "杨如华",
+      "model_answer": "杨如华",
+      "is_correct": true
+    },
+    {
+      "image": "695.png",
+      "question": "到店事业群有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "346.png",
+      "question": "总经理的直接上级是谁？",
+      "standard_answer": "董事长",
+      "model_answer": "<|begin_of_box|>董事长<|end_of_box|>",
+      "is_correct": true
+    },
+    {
+      "image": "572.png",
+      "question": "项目经理的直接下级是谁？",
+      "standard_answer": "技术负责人高级工程师",
+      "model_answer": "技术负责人高级工程师",
+      "is_correct": true
+    },
+    {
+      "image": "994.jpg",
+      "question": "国际贸易部属于哪个部门？",
+      "standard_answer": "业务部门",
+      "model_answer": "业务部门",
+      "is_correct": true
+    },
+    {
+      "image": "226.jpg",
+      "question": "公司专职安全员属于哪个层级？",
+      "standard_answer": "第三层",
+      "model_answer": "第二层",
+      "is_correct": false
+    },
+    {
+      "image": "925.jpg",
+      "question": "昌河飞机工业（集团）有限责任公司有几个控股子公司？",
+      "standard_answer": "2",
+      "model_answer": "2",
+      "is_correct": true
+    },
+    {
+      "image": "756.png",
+      "question": "总裁管理几个部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "71.jpg",
+      "question": "总经办下有几个部门？",
+      "standard_answer": "5",
+      "model_answer": "5",
+      "is_correct": true
+    },
+    {
+      "image": "482.png",
+      "question": "项目经理是谁？",
+      "standard_answer": "刘东祥",
+      "model_answer": "刘东祥",
+      "is_correct": true
+    },
+    {
+      "image": "929.jpg",
+      "question": "中国航空器材集团公司有多少个子部门？",
+      "standard_answer": "14",
+      "model_answer": "15",
+      "is_correct": false
+    },
+    {
+      "image": "724.jpg",
+      "question": "中信集团拥有中信控股的股权比例是多少？",
+      "standard_answer": "100%",
+      "model_answer": "100%",
+      "is_correct": true
+    },
+    {
+      "image": "251.png",
+      "question": "财务部属于哪个副总？",
+      "standard_answer": "副总经理",
+      "model_answer": "副总经理",
+      "is_correct": true
+    },
+    {
+      "image": "246.png",
+      "question": "项目经理直接管理几个职位？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "341.png",
+      "question": "常务副总经理下总共有几个子部门？",
+      "standard_answer": "10",
+      "model_answer": "图片文件不存在",
+      "is_correct": false
+    },
+    {
+      "image": "510.png",
+      "question": "工程课长的职位状态是什么？",
+      "standard_answer": "待招聘",
+      "model_answer": "待招聘",
+      "is_correct": true
+    },
+    {
+      "image": "479.jpg",
+      "question": "市场部下有几个子部门？",
+      "standard_answer": "0",
+      "model_answer": "0",
+      "is_correct": true
+    },
+    {
+      "image": "322.jpg",
+      "question": "项目部经理直接管理多少个职位？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "368.png",
+      "question": "总经理下有几个直接下属部门？",
+      "standard_answer": "3",
+      "model_answer": "4",
+      "is_correct": false
+    },
+    {
+      "image": "723.jpg",
+      "question": "质量管理部经理直接管理几个产品线？",
+      "standard_answer": "3",
+      "model_answer": "3",
+      "is_correct": true
+    },
+    {
+      "image": "203.jpg",
+      "question": "进料控制组长是谁？",
+      "standard_answer": "染举华",
+      "model_answer": "染举华",
+      "is_correct": true
+    },
+    {
+      "image": "937.jpg",
+      "question": "部属中心有多少个子部门？",
+      "standard_answer": "4",
+      "model_answer": "4",
+      "is_correct": true
+    },
+    {
+      "image": "569.png",
+      "question": "董事会属于第几个层级？",
+      "standard_answer": "第一层",
+      "model_answer": "1",
+      "is_correct": false
+    },
+    {
+      "image": "58.jpg",
+      "question": "预算部下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "3",
+      "is_correct": false
+    },
+    {
+      "image": "184.jpg",
+      "question": "项目经理直接管理哪些部门？",
+      "standard_answer": "安全总监, 生产副经理, 项目总工程师",
+      "model_answer": "施工技术部",
+      "is_correct": false
+    },
+    {
+      "image": "497.png",
+      "question": "市场部下有几个子部门？",
+      "standard_answer": "4",
+      "model_answer": "3",
+      "is_correct": false
+    }
+  ]
+}

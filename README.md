@@ -67,10 +67,8 @@ https://zhuanlan.zhihu.com/p/703940563
 
 </details>
 
-
----
-
-# 总体流程
+<details>
+<summary>总体流程</summary>
 
 
 ## 数据选择
@@ -218,7 +216,12 @@ InternVL3在视觉感知任务上表现更强，这得益于其优化的视觉�
 
 这个数据是一个Overall的概括（多项指标的平均数），结果上两个模型在MMBench上的差距并不显著。InternVL3在开发集上表现更优，而Ovis2在测试集上反超，可能是Ovis模型在某些指标上更加突出。详细测评结果在仓库对应的result目录下。
 
-## 生成高质量的组织结构图类型的图表数据
+
+</details>
+
+---
+
+# 生成高质量的组织结构图类型的图表数据
 
 ![](https://cdn.jsdelivr.net/gh/liangdove/PicGo/imgs/202508021850896.png)
 
@@ -281,13 +284,22 @@ prompt = f"""你是一个专业的答案评判助手，需要判断模型回答�
 - 链接: https://pan.baidu.com/s/197vgalYUmTs1MwLBBvIrkA?pwd=ueji 提取码: ueji
 
 
-## 自建数据集评测
+# 自建数据集评测
 
-对自己构建的数据集（1018张图像进行评测）
+对构建的数据集（1018张图像）进行评测
+
+![](https://cdn.jsdelivr.net/gh/liangdove/PicGo/imgs/202508051629287.png)
+
+为了提升准确率，基于之前测试的两个模型，采用了两种策略。
+
+一种是继续扩大参数规模，在72B参数量的Qwen2.5VL模型上重新测评，发现涨点并不明显。
+
+另一种是采用具备视觉推理能力的模型，所谓视觉推理，就是让模型在回答过程中先进行一段思考过程（输出更多token），模型在经历思考过程后会对答案有更准确的把握。这种思考过程很适合分析组织架构图的层级关系，实验上，相较于之前表现较好的InternVL3-8B模型，在参数量规模一致的情况下指标提升了约13个百分点。性能提升明显。
 
 
-
-
+### papers
+[Chart Reasoning](https://arxiv.org/pdf/2506.10116)  
+[CHARTQAPRO](https://arxiv.org/pdf/2504.05506)
 
 ## 参考资料
 
